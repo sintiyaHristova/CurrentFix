@@ -9,7 +9,7 @@
   background-image: url('/assets/background.png');
   background-repeat: no-repeat;
   margin: 0; 
-  padding: 20px; 
+  padding: 0; 
 }
 
 .home .content {
