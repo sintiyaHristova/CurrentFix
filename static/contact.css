@@ -1,0 +1,88 @@
+main {
+  background-image: url("/assets/background.png");
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  max-width: 103vh;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.9rem;
+  background-image: url("/assets/backgroundSections.jpg");
+  width: 80%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact form .box,
+.contact form .box2 {
+  padding: 1rem;
+  font-size: 1.7rem;
+  border: 0.1rem solid rgba(6, 5, 19, 0.886);
+  border-radius: 0.5rem;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin-bottom: 15px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.contact form textarea {
+  height: 12rem;
+  resize: none;
+}
+
+.contact p {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .contact form {
+    width: 300px;
+    height: 350px;
+    padding: 1.5rem;
+  }
+
+  .contact form .box {
+    height: 5rem;
+    margin: 1.5rem 0;
+  }
+
+  .contact form .box2 {
+    height: 10rem;
+  }
+
+  .contact p {
+    font-size: 24px;
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+}

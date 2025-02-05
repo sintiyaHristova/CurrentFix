@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "MyCustomFont", sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: 0.1s linear;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+  margin-top: -30px;
+  padding-top: 0;
+}
+
+body {
+  font-family: "YourFontName", sans-serif;
+  color: var(--black);
+}
+
+section {
+  padding: 0 9%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background: black;
+  color: white;
+  padding: 0.9rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.btn:hover {
+  background: rgba(254, 207, 1, 255);
+  color: black;
+}
+
+.footer-content p {
+  font-size: 2rem;
+  padding: 1rem 0;
+  line-height: 1.5;
+  background-color: rgba(44, 44, 44, 255);
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  padding: 10rem;
+  margin-bottom: 20rem;
+  background-color: rgba(255, 255, 255, 0.829);
+  color: rgba(10, 3, 23, 0.789);
+  text-shadow: 3px 2px 3px rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+}
+
+.custom-icon {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  header {
+    padding: 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  .home {
+    background-position: left;
+  }
+}
+
+@media (max-width: 768px) {
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--white);
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  header .navbar a {
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background: var(--white);
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    display: block;
+  }
+
+  .home .content h3 {
+    font-size: 5rem;
+    margin-top: 60px;
+  }
+
+  .home .content span {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading {
+    font-size: 3rem;
+  }
+}
