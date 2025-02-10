@@ -6,8 +6,8 @@ const contactTemplate = () => html` <section class="contact" id="contact">
     <input
       type="hidden"
       name="access_key"
-      value="da94bc67-5546-4de2-8d5a-cc40cd13799e"
-    />
+value={process.env.REACT_APP_ACCESS_KEY}
+/>
     <textarea
       name="Телефонен номер:"
       class="box"
