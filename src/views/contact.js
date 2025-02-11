@@ -3,6 +3,7 @@ import { html } from "../lib/lit-html.js";
 const contactTemplate = () => html`
   <section class="contact" id="contact">
     <form action="https://formspree.io/f/xyzkdwyy" method="POST" id="contactForm">
+      <input type="hidden" name="_next" value="https://ffff-ten-fawn.vercel.app/contact" />
       <p>Вашето запитване:</p>
       <textarea
         name="Телефонен номер:"
@@ -27,9 +28,9 @@ const contactTemplate = () => html`
 
 export async function funcContact(e) {
   try {
-    // Просто рендираме шаблона без да изпращаме accessKey
     e.render(contactTemplate());
   } catch (error) {
     console.error("Грешка при зареждането на контактната форма:", error);
   }
 }
+
