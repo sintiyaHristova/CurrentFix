@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/assets/icon.png.png"
+      class="custom-icon"
+    />
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="/static/terms.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="/src/app.js" type="module"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar">
+        <i class="bx bx-menu sidebarOpen"></i>
+        <span class="logo navLogo"
+          ><a href="/"><span class="highlight">Current</span>Fix</a></span
+        >
+        <div class="menu">
+          <div class="logo-toggle">
+            <span class="logo"
+              ><a href="/"><span class="highlight">Current</span>Fix</a></span
+            >
+            <i class="bx bx-x sidebarClose"></i>
+          </div>
+          <ul class="nav-links">
+            <li><a href="/">Начало</a></li>
+            <li><a href="/catalog">Услуги</a></li>
+            <li><a href="/projects">Проекти</a></li>
+            <li><a href="/pricelist">Ценоразпис</a></li>
+            <li><a href="/contact">Контакт</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main></main>
+    <footer class="footer">
+      <div class="footer-content">
+        <p>Работно време:</p>
+        <ul>
+          <li>понеделник - петък: 18:00ч. – 21:30ч.</li>
+          <li>събота - неделя: 10:00ч. – 20:00ч.</li>
+        </ul>
+        <p>Телефон за контакт: <a href="tel:+359877083399">+359877083399</a></p>
+          <a href="/terms">Общи условия |</a>&nbsp;&nbsp;
+          <a href="/privacyPolicy">Политика за поверителност и защита на личните данни |</a>&nbsp;&nbsp;
+          <a href="https://www.linkedin.com/in/sintiya-hristova-146617149/"> Изработка на сайт</a>
+        </p>
+      </div>
+    </footer>
+    <script src="/src/views/nav.js"></script>
+    <div class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+      <img class="modal-content" id="modal-img" />
+      <span class="next" onclick="changeImage(1)">&#10095;</span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "name": "currentfix",
+  "version": "1.0.0",
+  "description": "## Features: - Service Menu: detailed listing of available electrical services; - Past Projects: showcase of previous electrical projects completed; - Pricing: clear pricing information for services offered; - Contact Form: form for users to get in touch with inquiries;",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 3000 -P http://localhost:3000?"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sintiyaHristova/CurrentFix.git"
+  },
+  "author": "Sintia Hristova",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "http-server": "^14.1.1",
+    "mocha": "^10.1.0",
+    "playwright-chromium": "^1.27.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "lit-html": "^2.4.0",
+    "nodemailer": "^6.9.15",
+    "page": "^1.11.6"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/sintiyaHristova/CurrentFix#readme"
+}

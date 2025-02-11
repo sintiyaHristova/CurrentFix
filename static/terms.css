@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+.terms {
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto Flex", serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.terms h1 {
+  font-size: 20px;
+  color: #343a40;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  font-weight: 600;
+}
+
+.terms p {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.terms ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.terms ul li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.terms ul li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-size: 1.8rem;
+  top: 0;
+}
+
+.terms a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .terms {
+    padding: 20px 10px;
+    margin: 15px;
+  }
+
+  .terms h1 {
+    font-size: 2rem;
+  }
+
+  .terms p {
+    font-size: 1rem;
+  }
+}
