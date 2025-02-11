@@ -3,7 +3,6 @@ import { html } from "../lib/lit-html.js";
 const contactTemplate = () => html`
   <section class="contact" id="contact">
     <form action="https://formspree.io/f/xyzkdwyy" method="POST" id="contactForm">
-      <input type="hidden" name="_next" value="https://ffff-ten-fawn.vercel.app/?success=true" />
       <p>Вашето запитване:</p>
       <textarea
         name="Телефонен номер:"
@@ -33,4 +32,3 @@ export async function funcContact(e) {
     console.error("Грешка при зареждането на контактната форма:", error);
   }
 }
-
