@@ -76,7 +76,6 @@ export function funcProjectsDetails(e) {
   }
 }
 
-// === ГЛОБАЛНО ДОСТЪПНИ ФУНКЦИИ ===
 window.openModal = openModal;
 window.changeImage = changeImage;
 window.closeModal = closeModal;
