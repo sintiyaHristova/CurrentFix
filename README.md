@@ -37,8 +37,6 @@ Runs the app in the development mode.
 ![05](https://github.com/user-attachments/assets/a686a864-a599-4852-b154-de7560ef0b80)
 <hr>
 
-![002](https://github.com/user-attachments/assets/01ac4668-63aa-4e73-8b09-aae17239be11)
-
 ## Responsive design for mobile devices:
 <img src="https://github.com/user-attachments/assets/798a0131-1258-4458-9b27-ed917cc65966" width="300" height="2200" />
 <img src="https://github.com/user-attachments/assets/01ac4668-63aa-4e73-8b09-aae17239be11" width="250" height="2200" />
