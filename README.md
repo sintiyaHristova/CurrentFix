@@ -22,25 +22,21 @@ Runs the app in the development mode.
 
 ## Official website: https://currentfix-bg.net/
 
-![01](https://github.com/user-attachments/assets/20787bdb-5ce0-48aa-8d68-93e96a106f9e)
+![01](https://github.com/user-attachments/assets/543917d7-b305-4c00-aa67-f2635a046bee)
 <hr>
 
-![02](https://github.com/user-attachments/assets/5d7a27b4-fa94-47d4-996a-09bb210559cd)
+![02](https://github.com/user-attachments/assets/dc30aaa8-b6fd-44ef-ac97-790e395c4db8)
 <hr>
 
-![03](https://github.com/user-attachments/assets/a0ec9c65-1549-4811-955b-655318e3521a)
+![03](https://github.com/user-attachments/assets/dbd63955-b1a7-4bc1-9d46-70c8aebb8ef2)
 <hr>
 
-![04](https://github.com/user-attachments/assets/045bd5c8-dc17-46f2-b030-bde86e955b42)
+![04](https://github.com/user-attachments/assets/d4cffb81-df1e-4b1b-a943-2730710de1b2)
 <hr>
 
-![05](https://github.com/user-attachments/assets/1e568f4b-5eec-488e-9bd5-d28d18618c40)
+![05](https://github.com/user-attachments/assets/a686a864-a599-4852-b154-de7560ef0b80)
 <hr>
 
-![06](https://github.com/user-attachments/assets/a12c0769-e0f4-4765-bdd4-de7cb5ea2fb4)
-<hr>
-
-![07](https://github.com/user-attachments/assets/fdc370b5-b979-4408-ac04-a354dcaaa01f)
 
 ## Responsive design for mobile devices:
 <img src="https://github.com/user-attachments/assets/c2b3b452-efd4-4e56-9c1d-128cd863e1fc" width="300" height="2200" />
