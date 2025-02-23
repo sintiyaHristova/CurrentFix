@@ -20,7 +20,7 @@ In the project directory, you can run:
 Runs the app in the development mode.
 - Open http://localhost:3000 to view it in your browser.
 
-## Official website: [[https://currentfix.vercel.app/](https://currentfix.vercel.app/)](https://currentfix-bg.net/)
+## Official website: https://currentfix-bg.net/
 
 ![01](https://github.com/user-attachments/assets/20787bdb-5ce0-48aa-8d68-93e96a106f9e)
 <hr>
