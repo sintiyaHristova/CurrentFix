@@ -12,7 +12,6 @@
   - lit-html
 - HTML
 - CSS
-- Express.js 
   
 ## Usage Instructions:
 In the project directory, you can run:
