@@ -2,7 +2,7 @@ import { html } from "../lib/lit-html.js";
 
 const contactTemplate = () => html`
   <section class="contact" id="contact">
-    <form action="https://formspree.io/f/xyzkdwyy" method="POST" id="contactForm">
+    <form action="https://formspree.io/f/xnnjejaj" method="POST" id="contactForm">
       <p>Вашето запитване:</p>
       <textarea
         name="Телефонен номер:"
